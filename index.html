@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Completo de Termux para Iniciantes | SafeLock Ai</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Personalização adicional do Tailwind */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .highlight {
+            color: #1b8c77;
+        }
+        
+        .btn-primary {
+            background-color: #1b8c77;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            background-color: #146b5c;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body class="bg-white text-black">
+    <!-- Cabeçalho/Navbar -->
+    <header class="border-b border-gray-200 py-4">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <span class="text-2xl font-bold highlight">SafeLock Ai</span>
+            </div>
+            <nav class="hidden md:block">
+                <ul class="flex space-x-6">
+                    <li><a href="#conteudo" class="hover:text-[#1b8c77]">Conteúdo</a></li>
+                    <li><a href="#beneficios" class="hover:text-[#1b8c77]">Benefícios</a></li>
+                    <li><a href="#faq" class="hover:text-[#1b8c77]">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-12 md:py-20 bg-gradient-to-r from-white to-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <!-- Tag de destaque -->
+                <span class="inline-block px-3 py-1 mb-4 text-xs font-semibold text-[#1b8c77] bg-[#1b8c77]/10 rounded-full">NOVO CURSO</span>
+                
+                <!-- Título principal -->
+                <h1 class="text-3xl md:text-5xl font-bold mb-6 leading-tight">
+                    Curso Completo de Termux para Iniciantes – Por apenas <span class="highlight">R$19,00</span>
+                </h1>
+                
+                <!-- Descrição curta -->
+                <p class="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+                    Aprenda <span class="font-semibold">hacking ético</span> no Android com Termux de forma prática e <span class="font-semibold">vitalícia</span>!
+                </p>
+                
+                <!-- Botão CTA -->
+                <a href="https://pay.cakto.com.br/PCyhBuh" class="btn-primary inline-block px-8 py-4 text-white font-bold rounded-lg shadow-lg hover:shadow-xl">
+                    Quero me inscrever agora
+                </a>
+                
+                <!-- Garantia/Selo -->
+                <div class="mt-8 flex items-center justify-center space-x-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#1b8c77]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                    </svg>
+                    <span class="text-sm text-gray-600">Acesso vitalício e atualizações gratuitas</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção "O que você vai aprender" -->
+    <section id="conteudo" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">O que você vai <span class="highlight">aprender</span></h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Domine técnicas essenciais de segurança ofensiva diretamente do seu smartphone Android</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Item 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+                    <div class="w-12 h-12 bg-[#1b8c77]/10 rounded-full flex items-center justify-center mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#1b8c77]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Ataques de força bruta</h3>
+                    <p class="text-gray-600">Aprenda a realizar e se proteger contra ataques de força bruta em sistemas e redes.</p>
+                </div>
+                
+                <!-- Item 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+                    <div class="w-12 h-12 bg-[#1b8c77]/10 rounded-full flex items-center justify-center mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#1b8c77]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Criação de wordlists</h3>
+                    <p class="text-gray-600">Domine a criação de wordlists personalizadas para testes de penetração.</p>
+                </div>
+                
+                <!-- Item 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+                    <div class="w-12 h-12 bg-[#1b8c77]/10 rounded-full flex items-center justify-center mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#1b8c77]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Shell reverso</h3>
+                    <p class="text-gray-600">Aprenda a criar shells reversos para Linux e Windows e manter acesso a sistemas.</p>
+                </div>
+                
+                <!-- Item 4 -->
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+                    <div class="w-12 h-12 bg-[#1b8c77]/10 rounded-full flex items-center justify-center mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#1b8c77]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Uso do Nmap</h3>
+                    <p class="text-gray-600">Domine o Nmap para descoberta de hosts, varredura de portas e detecção de vulnerabilidades.</p>
+                </div>
+                
+                <!-- Item 5 -->
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+                    <div class="w-12 h-12 bg-[#1b8c77]/10 rounded-full flex items-center justify-center mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#1b8c77]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Phishing</h3>
+                    <p class="text-gray-600">Aprenda técnicas de phishing para testes de segurança e como se proteger contra elas.</p>
+                </div>
+                
+                <!-- Item 6 -->
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+                    <div class="w-12 h-12 bg-[#1b8c77]/10 rounded-full flex items-center justify-center mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#1b8c77]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Hospedagem local com URL pública</h3>
+                    <p class="text-gray-600">Aprenda a hospedar sites localmente com URL pública para testes e demonstrações.</p>
+                </div>
+                
+                <!-- Item 7 -->
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+                    <div class="w-12 h-12 bg-[#1b8c77]/10 rounded-full flex items-center justify-center mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#1b8c77]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Invasão de sites e câmeras IP</h3>
+                    <p class="text-gray-600">Técnicas éticas para identificar vulnerabilidades em sites e dispositivos IoT.</p>
+                </div>
+                
+                <!-- Item 8 -->
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+                    <div class="w-12 h-12 bg-[#1b8c77]/10 rounded-full flex items-center justify-center mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#1b8c77]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Rastreamento de dispositivos</h3>
+                    <p class="text-gray-600">Aprenda técnicas de geolocalização e rastreamento de dispositivos em redes.</p>
+                </div>
+                
+                <!-- Item 9 -->
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+                    <div class="w-12 h-12 bg-[#1b8c77]/10 rounded-full flex items-center justify-center mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#1b8c77]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Automações com IA</h3>
+                    <p class="text-gray-600">Crie scripts e automações inteligentes para potencializar seus testes de segurança.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Benefícios -->
+    <section id="beneficios" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">Por que escolher nosso <span class="highlight">curso</span>?</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Tudo o que você precisa para dominar o Termux e segurança ofensiva</p>
+            </div>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-[#1b8c77]/5 p-8 md:p-12 rounded-xl">
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <!-- Benefício 1 -->
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#1b8c77]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                </svg>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-lg font-bold mb-2">Acesso vitalício</h3>
+                                <p class="text-gray-600">Tenha acesso permanente ao conteúdo do curso, sem mensalidades ou renovação.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Benefício 2 -->
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#1b8c77]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                </svg>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-lg font-bold mb-2">Atualizações gratuitas</h3>
+                                <p class="text-gray-600">Todas as atualizações e novos conteúdos serão disponibilizados sem custo adicional.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Benefício 3 -->
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#1b8c77]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                </svg>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-lg font-bold mb-2">GitHub privado</h3>
+                                <p class="text-gray-600">Acesso exclusivo a ferramentas e scripts no meu repositório privado do GitHub.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Benefício 4 -->
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#1b8c77]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                </svg>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-lg font-bold mb-2">Suporte direto</h3>
+                                <p class="text-gray-600">Dúvidas? Você terá acesso direto ao instrutor para tirar suas questões.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Depoimentos -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">O que dizem nossos <span class="highlight">alunos</span></h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Veja a opinião de quem já está aprendendo com nosso curso</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Depoimento 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-gray-200 rounded-full"></div>
+                        <div class="ml-4">
+                            <h4 class="font-bold">Carlos S.</h4>
+                            <div class="flex text-yellow-400">
+                                ★ ★ ★ ★ ★
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"O curso superou minhas expectativas. Em poucas semanas já consegui realizar meus primeiros testes de penetração com Termux."</p>
+                </div>
+                
+                <!-- Depoimento 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-gray-200 rounded-full"></div>
+                        <div class="ml-4">
+                            <h4 class="font-bold">Ana L.</h4>
+                            <div class="flex text-yellow-400">
+                                ★ ★ ★ ★ ★
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Didática excelente! Mesmo sendo iniciante consegui acompanhar tudo. As aulas sobre phishing foram incríveis."</p>
+                </div>
+                
+                <!-- Depoimento 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-gray-200 rounded-full"></div>
+                        <div class="ml-4">
+                            <h4 class="font-bold">Rafael M.</h4>
+                            <div class="flex text-yellow-400">
+                                ★ ★ ★ ★ ★
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Vale cada centavo! O acesso às ferramentas privadas no GitHub já justificou o investimento."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Garantia -->
+    <section class="py-12 bg-[#1b8c77] text-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <div class="inline-block p-3 mb-6 bg-white/10 rounded-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                    </svg>
+                </div>
+                <h2 class="text-2xl md:text-3xl font-bold mb-4">Garantia de Satisfação</h2>
+                <p class="text-lg mb-6 max-w-2xl mx-auto">Se em 7 dias você não estiver satisfeito com o curso, devolvemos 100% do seu dinheiro sem burocracia.</p>
+                <a href="https://pay.cakto.com.br/PCyhBuh" class="inline-block px-8 py-4 bg-white text-[#1b8c77] font-bold rounded-lg shadow-lg hover:bg-gray-100 transition">
+                    Quero me inscrever agora
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">Perguntas <span class="highlight">frequentes</span></h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Tire suas dúvidas sobre o curso</p>
+            </div>
+            
+            <div class="max-w-3xl mx-auto">
+                <!-- FAQ Item 1 -->
+                <div class="mb-6 border-b border-gray-200 pb-6">
+                    <h3 class="text-xl font-bold mb-2">Preciso ter conhecimento prévio?</h3>
+                    <p class="text-gray-600">Não! O curso foi projetado para iniciantes. Começamos do absoluto zero, ensinando desde a instalação do Termux até técnicas avançadas.</p>
+                </div>
+                
+                <!-- FAQ Item 2 -->
+                <div class="mb-6 border-b border-gray-200 pb-6">
+                    <h3 class="text-xl font-bold mb-2">Quanto tempo tenho acesso ao curso?</h3>
+                    <p class="text-gray-600">O acesso é vitalício! Você poderá assistir às aulas quantas vezes quiser, quando quiser, sem prazo para expiração.</p>
+                </div>
+                
+                <!-- FAQ Item 3 -->
+                <div class="mb-6 border-b border-gray-200 pb-6">
+                    <h3 class="text-xl font-bold mb-2">As aulas são atualizadas?</h3>
+                    <p class="text-gray-600">Sim! O conteúdo é constantemente revisado e atualizado. Todas as novas aulas e atualizações são disponibilizadas sem custo adicional.</p>
+                </div>
+                
+                <!-- FAQ Item 4 -->
+                <div class="mb-6">
+                    <h3 class="text-xl font-bold mb-2">Como acesso o GitHub privado?</h3>
+                    <p class="text-gray-600">Após a confirmação da compra, você receberá um e-mail com as instruções para acessar nosso repositório privado no GitHub com ferramentas e scripts exclusivos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden">
+                <div class="md:flex">
+                    <div class="md:w-1/2 bg-[#1b8c77] p-8 md:p-12 text-white flex flex-col justify-center">
+                        <h2 class="text-2xl md:text-3xl font-bold mb-4">Pronto para dominar o Termux?</h2>
+                        <p class="mb-6">Aproveite esta oportunidade única e comece hoje mesmo sua jornada em segurança ofensiva.</p>
+                        <div class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            <span>Oferta por tempo limitado</span>
+                        </div>
+                    </div>
+                    <div class="md:w-1/2 p-8 md:p-12">
+                        <div class="mb-6">
+                            <span class="text-gray-500 line-through text-lg">R$97,00</span>
+                            <span class="text-3xl font-bold ml-2 highlight">R$19,00</span>
+                        </div>
+                        <ul class="mb-8 space-y-3">
+                            <li class="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#1b8c77] mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                </svg>
+                                <span>Acesso vitalício</span>
+                            </li>
+                            <li class="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#1b8c77] mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                </svg>
+                                <span>Atualizações gratuitas</span>
+                            </li>
+                            <li class="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#1b8c77] mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                </svg>
+                                <span>GitHub privado</span>
+                            </li>
+                            <li class="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#1b8c77] mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                </svg>
+                                <span>Suporte direto</span>
+                            </li>
+                        </ul>
+                        <a href="https://pay.cakto.com.br/PCyhBuh" class="btn-primary block w-full text-center px-6 py-4 text-white font-bold rounded-lg shadow-lg">
+                            Quero me inscrever agora
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="bg-black text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <!-- Coluna 1 -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4 highlight">SafeLock Ai</h3>
+                    <p class="text-gray-400">Cursos de segurança ofensiva e hacking ético para iniciantes.</p>
+                </div>
+                
+                <!-- Coluna 2 -->
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Links Rápidos</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#conteudo" class="text-gray-400 hover:text-[#1b8c77] transition">Conteúdo</a></li>
+                        <li><a href="#beneficios" class="text-gray-400 hover:text-[#1b8c77] transition">Benefícios</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-[#1b8c77] transition">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Coluna 3 -->
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Legal</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-[#1b8c77] transition">Termos de Uso</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-[#1b8c77] transition">Política de Privacidade</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Coluna 4 -->
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Contato</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                            <span class="text-gray-400">suporte@safelockai.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
+                <p>© 2023 SafeLock Ai. Todos os direitos reservados.</p>
+                <p class="mt-2 text-sm">Este curso é para fins educacionais apenas. Não nos responsabilizamos pelo uso indevido das técnicas ensinadas.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
